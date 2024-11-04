@@ -1,0 +1,139 @@
+.header-principal{
+    padding-top: 20px;
+    margin-bottom: 70px;
+    @include breakpoint(desktopxxl){
+        padding-top: 50px;
+        margin-bottom: 88px;
+    }
+    .container-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .menu-header{
+            ul{
+                display: flex;
+                gap: 40px;
+                @include breakpoint(desktopxxl){
+                    gap: 56px;
+                }
+                .home{
+                    position: relative;
+                    &:hover{
+                        .line{
+                            display: block;
+                        }
+                    }
+                    a{
+                        text-decoration: none;
+                        font-family: $quatrocento;
+                        color: $black;
+                        @include breakpoint(desktopxxl){
+                            font-size: 18px;
+                        }
+                    }
+                    .line{
+                        position: absolute;
+                        bottom: -50%;
+                        left: 0;
+                        display: none;
+                    }
+                }
+                .portfolio{
+                    position: relative;
+                    &:hover{
+                        .line{
+                            display: block;
+                        }
+                    }
+                    a{
+                        text-decoration: none;
+                        font-family: $quatrocento;
+                        color: $black;
+                        @include breakpoint(desktopxxl){
+                            font-size: 18px;
+                        }
+                    }
+                    .line{
+                        position: absolute;
+                        bottom: -50%;
+                        left: 0;
+                        display: none;
+                    }
+                }
+                .blog{
+                    position: relative;
+                    &:hover{
+                        .line{
+                            display: block;
+                        }
+                    }
+                    a{
+                        text-decoration: none;
+                        font-family: $quatrocento;
+                        color: $black;
+                        @include breakpoint(desktopxxl){
+                            font-size: 18px;
+                        }
+                    }
+                    .line{
+                        position: absolute;
+                        bottom: -50%;
+                        left: 0;
+                        display: none;
+                    }
+                }
+                .about{
+                    position: relative;
+                    &:hover{
+                        .line{
+                            display: block;
+                        }
+                    }
+                    a{
+                        text-decoration: none;
+                        font-family: $quatrocento;
+                        color: $black;
+                        @include breakpoint(desktopxxl){
+                            font-size: 18px;
+                        }
+                    }
+                    .line{
+                        position: absolute;
+                        bottom: -50%;
+                        left: 0;
+                        display: none;
+                    }
+                }
+            }
+        }
+        .logo{
+            font-family: $oswald;
+            font-weight: 600;
+            color: $black;
+            font-size: 30px;
+            margin-right: 100px;
+            @include breakpoint(desktopxxl){
+                font-size: 36px;
+                margin-right: 200px;
+            }
+            span{
+                font-family: $oswald;
+                font-weight: 600;
+                color: $silver;
+                font-size: 30px;
+                @include breakpoint(desktopxxl){
+                    font-size: 36px;
+                }
+            }
+        }
+        .icons-header{
+            ul{
+                display: flex;
+                gap: 25px;
+                @include breakpoint(desktopxxl){
+                    gap: 32px;
+                }
+            }
+        }
+    }
+}

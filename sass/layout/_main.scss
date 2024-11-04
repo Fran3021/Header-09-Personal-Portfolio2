@@ -1,0 +1,278 @@
+.main-principal{
+    .container-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .title-hero{
+            width: max-content;
+            position: relative;
+            font-size: 80px;
+            font-family: $oswald;
+            font-weight: 500;
+            color: $black;
+            @include breakpoint(desktopxxl){
+                font-size: 96px;
+            }
+            img{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+        }
+        .hero{
+            display: flex;
+            .service-hero{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding-top: 80px;
+                @include breakpoint(desktopxxl){
+                    gap: 32px;       
+                }
+                h3{
+                    font-size: 20px;
+                    font-family: $oswald;
+                    font-weight: 500;
+                    @include breakpoint(desktopxxl){
+                        font-size: 32px;
+                    }
+                }
+                .development{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    @include breakpoint(desktopxxl){
+                        gap: 16px;    
+                    }
+                    .image-title{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        @include breakpoint(desktopxxl){
+                            gap: 16px;
+                        }
+                        img{
+                            background-color: $white;
+                            padding: 5px;
+                            box-shadow: 0px 5px 10px #E0E0E2;
+                        }
+                        h4{
+                            font-size: 14px;
+                            font-family: $oswald;
+                            font-weight: 500;
+                            color: $black;
+                            @include breakpoint(desktopxxl){
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                    p{
+                        font-size: 14px;
+                        color: $silver;
+                        width: 50%;
+                        line-height: 24px;
+                        @include breakpoint(desktopxxl){
+                            font-size: 18px;
+                            line-height: 32px;
+                        }
+                    }
+                }
+                .design{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    @include breakpoint(desktopxxl){
+                        gap: 16px;
+                    }
+                    .image-title{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        @include breakpoint(desktopxxl){
+                            gap: 16px;
+                        }
+                        img{
+                            background-color: $white;
+                            padding: 5px;
+                            box-shadow: 0px 5px 10px #E0E0E2;
+                        }
+                        h4{
+                            font-size: 14px;
+                            font-family: $oswald;
+                            font-weight: 500;
+                            color: $black;
+                            @include breakpoint(desktopxxl){
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                    p{
+                        font-size: 14px;
+                        color: $silver;
+                        width: 50%;
+                        line-height: 24px;
+                        @include breakpoint(desktopxxl){
+                            font-size: 18px;
+                            line-height: 32px;
+                        }
+                    }
+                }
+                .consulting{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    @include breakpoint(desktopxxl){
+                        gap: 16px;
+                    }
+                    .image-title{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        @include breakpoint(desktopxxl){
+                            gap: 16px;
+                        }
+                        img{
+                            background-color: $white;
+                            padding: 5px;
+                            box-shadow: 0px 5px 10px #E0E0E2;
+                            
+                        }
+                        h4{
+                            font-size: 14px;
+                            font-family: $oswald;
+                            font-weight: 500;
+                            color: $black;
+                            @include breakpoint(desktopxxl){
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                    p{
+                        font-size: 14px;
+                        color: $silver;
+                        width: 50%;
+                        line-height: 24px;
+                        @include breakpoint(desktopxxl){
+                            font-size: 18px;
+                            line-height: 32px;
+                        }
+                    }
+                }
+            }
+            .image-hero{
+                flex: 1;
+                img{
+                    width: 100%;
+                }
+            }
+            .biogafria-hero{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                padding-top: 80px;
+                padding-left: 70px;
+                @include breakpoint(desktopxxl){
+                    gap: 0px;
+                }
+                h3{
+                    font-size: 20px;
+                    font-family: $oswald;
+                    font-weight: 500;
+                    @include breakpoint(desktopxxl){
+                        font-size: 32px;
+                        margin-bottom: 32px;
+                    }
+                }
+                p{
+                    font-size: 14px;
+                    color: $silver;
+                    width: 80%;
+                    line-height: 24px;
+                    @include breakpoint(desktopxxl){
+                        font-size: 18px;
+                        margin-bottom: 48px;
+                    }
+                }
+                .button{
+                    display: inline-block;
+                    text-decoration: none;
+                    color: $white;
+                    background-color: $black;
+                    padding: 10px 20px;
+                    width: max-content;
+                    font-size: 16px;
+                    margin-bottom: 30px;
+                    @include breakpoint(desktopxxl){
+                        font-size: 24px;
+                        margin-bottom: 72px;
+                        padding: 10px 36px;
+                    }
+                }
+                .experience{
+                    display: flex;
+                    gap: 30px;
+                    @include breakpoint(desktopxxl){
+                        gap: 32px;
+                    }
+                    .years{
+                        h5{
+                            font-family: $oswald;
+                            font-weight: 500;
+                            font-size: 20px;
+                            margin-bottom: 10px;
+                            @include breakpoint(desktopxxl){
+                                font-size: 32px;
+                            }
+                        }
+                        p{
+                            font-size: 14px;
+                            color: $silver;
+                            @include breakpoint(desktopxxl){
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                    .clients{
+                        h5{
+                            font-family: $oswald;
+                            font-weight: 500;
+                            font-size: 20px;
+                            margin-bottom: 10px;
+                            @include breakpoint(desktopxxl){
+                                font-size: 32px;
+                            }
+                        }
+                        p{
+                            font-size: 14px;
+                            color: $silver;
+                            @include breakpoint(desktopxxl){
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                    .satisfaction{
+                        h5{
+                            font-family: $oswald;
+                            font-weight: 500;
+                            font-size: 20px;
+                            margin-bottom: 10px;
+                            @include breakpoint(desktopxxl){
+                                font-size: 32px;
+                            }
+                        }
+                        p{
+                            font-size: 14px;
+                            color: $silver;
+                            @include breakpoint(desktopxxl){
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
